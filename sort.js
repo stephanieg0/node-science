@@ -45,4 +45,28 @@ function insertionSort (array) {
   return array
 }
 
-console.log(insertionSort(arr));
+function selectionSort (array) {
+  //loop through and find the lowest and swap it at the front.
+  //start loopting from the last swapped
+
+   for (let i = 0; i < array.length - 1; i ++){
+     let minIndex = i
+     for (let j = i + 1; j < array.length; j++){
+       if (array[minIndex] > array[j]){
+        minIndex = j
+        //console.log(minIndex);
+        }
+     }
+     if (minIndex !== i) {
+       swap(array, minIndex, i)
+       console.log(array);
+      }
+
+     }
+
+   console.log('last', array);
+}
+
+//console.log(insertionSort(arr));
+
+console.log(selectionSort(arr))
