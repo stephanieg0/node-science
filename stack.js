@@ -32,4 +32,11 @@ class Stack {
     this.head = this.head.next
     return removed
   }
+
+  isEmpty(){
+  }
+  isFull() {
+    return false
+  }
+  getSize(){}
 }

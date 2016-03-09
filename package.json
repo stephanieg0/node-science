@@ -1,0 +1,24 @@
+{
+  "name": "node-science",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanieg0/node-science.git"
+  },
+  "keywords": [],
+  "author": "Stephanie Goldstein <stephanie.miranda.valdez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanieg0/node-science/issues"
+  },
+  "homepage": "https://github.com/stephanieg0/node-science#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.6.1"
+  }
+}
